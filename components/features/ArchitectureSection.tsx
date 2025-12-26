@@ -11,7 +11,7 @@ export function ArchitectureSection({
 }: ArchitectureSectionProps) {
   return (
     <Card title={title}>
-      <ul className="list-disc space-y-2 pl-5 text-sm text-gray-600">
+      <ul className="list-disc space-y-2 pl-5 text-black">
         {items.map((item) => (
           <li key={item}>{item}</li>
         ))}

@@ -16,11 +16,11 @@ export function AboutContent({
 }: AboutContentProps) {
   return (
     <section className="mx-auto max-w-4xl px-6 py-20">
-      <h1 className="mb-4 text-3xl font-bold text-gray-900">
+      <h1 className="mb-4 text-3xl font-bold text-black-900">
         {title}
       </h1>
 
-      <p className="mb-12 text-lg text-gray-600">
+      <p className="mb-12 text-lg text-black-600">
         {description}
       </p>
 
@@ -30,7 +30,7 @@ export function AboutContent({
             <h3 className="mb-2 text-lg font-semibold">
               {p.title}
             </h3>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-black-600">
               {p.text}
             </p>
           </div>

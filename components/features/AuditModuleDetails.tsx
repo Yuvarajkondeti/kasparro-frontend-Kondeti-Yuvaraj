@@ -6,20 +6,18 @@ interface AuditModuleDetailsProps {
   module: AuditModule;
 }
 
-export function AuditModuleDetails({
-  module,
-}: AuditModuleDetailsProps) {
+export function AuditModuleDetails({ module }: AuditModuleDetailsProps) {
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 text-black">
       <Card title={`${module.name} — Score ${module.score}`}>
-        <p className="text-sm text-gray-600">
+        <p className="text-black">
           Key insights and findings from this audit module.
         </p>
       </Card>
 
       {module.insights.length > 0 && (
         <Card title="Insights">
-          <ul className="space-y-2 text-sm">
+          <ul className="space-y-2">
             {module.insights.map((i) => (
               <li key={i.title}>
                 <strong>{i.title}:</strong> {i.description}
@@ -31,12 +29,9 @@ export function AuditModuleDetails({
 
       {module.issues.length > 0 && (
         <Card title="Issues">
-          <ul className="space-y-3 text-sm">
+          <ul className="space-y-3">
             {module.issues.map((issue, idx) => (
-              <li
-                key={idx}
-                className="flex items-center gap-2"
-              >
+              <li key={idx} className="flex items-center gap-2">
                 <Badge
                   label={issue.severity}
                   variant={issue.severity}
@@ -50,7 +45,7 @@ export function AuditModuleDetails({
 
       {module.recommendations.length > 0 && (
         <Card title="Recommendations">
-          <ul className="space-y-2 text-sm">
+          <ul className="space-y-2">
             {module.recommendations.map((r, idx) => (
               <li key={idx}>
                 <strong>{r.action}</strong> — {r.impact}
