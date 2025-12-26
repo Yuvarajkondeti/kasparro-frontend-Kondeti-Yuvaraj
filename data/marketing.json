@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "title": "AI-native SEO & Brand Intelligence",
+    "subtitle": "Kasparro helps your brand get cited, trusted, and surfaced by AI-first search engines like ChatGPT, Gemini, and Perplexity."
+  },
+  "aiSeoDifference": [
+    {
+      "title": "Traditional SEO",
+      "points": [
+        "Optimizes for blue links",
+        "Focuses on rankings",
+        "Keyword-centric"
+      ]
+    },
+    {
+      "title": "AI-first SEO",
+      "points": [
+        "Optimizes for AI answers",
+        "Focuses on citations & trust",
+        "Context and entity-centric"
+      ]
+    }
+  ],
+  "auditPipeline": [
+    "Brand & Content Inputs",
+    "Context Assembly",
+    "AI Audit Modules",
+    "Actionable Insights"
+  ]
+}

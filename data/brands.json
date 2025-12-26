@@ -1,0 +1,14 @@
+[
+  {
+    "id": "brand_1",
+    "name": "Kasparro",
+    "domain": "kasparro.com",
+    "industry": "AI SaaS"
+  },
+  {
+    "id": "brand_2",
+    "name": "Acme Corp",
+    "domain": "acme.com",
+    "industry": "Ecommerce"
+  }
+]

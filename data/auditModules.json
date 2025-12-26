@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ai_visibility",
+    "name": "AI Visibility",
+    "score": 82,
+    "insights": [
+      {
+        "title": "Strong LLM Mentions",
+        "description": "Brand appears frequently in ChatGPT and Perplexity responses."
+      }
+    ],
+    "issues": [
+      {
+        "severity": "medium",
+        "message": "Inconsistent citations across AI answers."
+      }
+    ],
+    "recommendations": [
+      {
+        "action": "Publish authoritative comparison pages.",
+        "impact": "Improves AI citation confidence."
+      }
+    ]
+  },
+  {
+    "id": "eeat",
+    "name": "Trust & EEAT",
+    "score": 74,
+    "insights": [
+      {
+        "title": "Author signals detected",
+        "description": "Content shows moderate author attribution."
+      }
+    ],
+    "issues": [
+      {
+        "severity": "high",
+        "message": "Missing author schema on key pages."
+      }
+    ],
+    "recommendations": [
+      {
+        "action": "Add structured author schema.",
+        "impact": "Improves trust scoring in LLMs."
+      }
+    ]
+  },
+  {
+    "id": "content_coverage",
+    "name": "Content Coverage",
+    "score": 68,
+    "insights": [],
+    "issues": [
+      {
+        "severity": "medium",
+        "message": "Several non-branded topics missing."
+      }
+    ],
+    "recommendations": [
+      {
+        "action": "Create content for uncovered intent clusters.",
+        "impact": "Expands AI recall surface."
+      }
+    ]
+  },
+  {
+    "id": "citations",
+    "name": "Citations & Sources",
+    "score": 77,
+    "insights": [],
+    "issues": [],
+    "recommendations": []
+  },
+  {
+    "id": "brand_sentiment",
+    "name": "Brand Sentiment",
+    "score": 85,
+    "insights": [],
+    "issues": [],
+    "recommendations": []
+  },
+  {
+    "id": "competitor_context",
+    "name": "Competitor Context",
+    "score": 71,
+    "insights": [],
+    "issues": [],
+    "recommendations": []
+  },
+  {
+    "id": "freshness",
+    "name": "Content Freshness",
+    "score": 66,
+    "insights": [],
+    "issues": [],
+    "recommendations": []
+  }
+]

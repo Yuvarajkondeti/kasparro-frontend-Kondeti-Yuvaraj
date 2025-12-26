@@ -1,0 +1,42 @@
+{
+  "sections": [
+    {
+      "title": "Input Assembler",
+      "items": [
+        "Brand website content",
+        "Entity & author signals",
+        "Competitor mentions",
+        "External citations"
+      ]
+    },
+    {
+      "title": "Context Pack",
+      "items": [
+        "Entity graph construction",
+        "Topical authority modeling",
+        "Trust & EEAT signals"
+      ]
+    },
+    {
+      "title": "Audit Modules",
+      "items": [
+        "AI Visibility",
+        "Trust & EEAT",
+        "Content Coverage",
+        "Citations",
+        "Brand Sentiment",
+        "Competitor Context",
+        "Freshness"
+      ]
+    },
+    {
+      "title": "Output Surfaces",
+      "items": [
+        "AI visibility score",
+        "Explainable insights",
+        "Issues & flags",
+        "Actionable recommendations"
+      ]
+    }
+  ]
+}

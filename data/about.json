@@ -1,0 +1,18 @@
+{
+  "title": "Built for AI-first Search",
+  "description": "Kasparro is designed from the ground up for how modern AI systems understand, trust, and cite brands — not for traditional ranking algorithms.",
+  "principles": [
+    {
+      "title": "System-first Thinking",
+      "text": "We model AI perception as a pipeline of structured signals instead of isolated metrics."
+    },
+    {
+      "title": "Context Over Keywords",
+      "text": "AI systems reason over entities, relationships, and authority — not keyword density."
+    },
+    {
+      "title": "Explainable Audits",
+      "text": "Every score is backed by clear signals, issues, and recommendations."
+    }
+  ]
+}
