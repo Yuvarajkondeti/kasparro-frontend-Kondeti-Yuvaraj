@@ -1,9 +1,12 @@
 'use client';
 
 import { useState } from 'react';
-import modules from '@/data/auditModules.json';
+import rawModules from '@/data/auditModules.json';
+import { AuditModule } from '@/types/audit';
 import { AuditModuleList } from '@/components/features/AuditModuleList';
 import { AuditModuleDetails } from '@/components/features/AuditModuleDetails';
+
+const modules = rawModules as AuditModule[];
 
 export default function AuditPage() {
   const [selectedModuleId, setSelectedModuleId] = useState(
@@ -18,7 +21,6 @@ export default function AuditPage() {
 
   return (
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-      {/* Left sidebar */}
       <div className="lg:col-span-1">
         <AuditModuleList
           modules={modules}
@@ -27,7 +29,6 @@ export default function AuditPage() {
         />
       </div>
 
-      {/* Right panel */}
       <div className="lg:col-span-2">
         <AuditModuleDetails module={selectedModule} />
       </div>
